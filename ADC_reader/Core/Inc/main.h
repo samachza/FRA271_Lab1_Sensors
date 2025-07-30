@@ -67,6 +67,10 @@ void MX_GPIO_Init(void);
 void MX_DMA_Init(void);
 void MX_LPUART1_UART_Init(void);
 void MX_ADC1_Init(void);
+void MX_ADC2_Init(void);
+void MX_ADC3_Init(void);
+void MX_ADC4_Init(void);
+void MX_ADC5_Init(void);
 
 /* USER CODE BEGIN EFP */
 

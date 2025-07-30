@@ -67,7 +67,7 @@ extern TIM_HandleTypeDef htim2;
 /**
   * @brief This function handles Non maskable interrupt.
   */
-__attribute__((weak)) void NMI_Handler (void)
+void NMI_Handler(void)
 {
   /* USER CODE BEGIN NonMaskableInt_IRQn 0 */
 
@@ -82,7 +82,7 @@ __attribute__((weak)) void NMI_Handler (void)
 /**
   * @brief This function handles Hard fault interrupt.
   */
-__attribute__((weak)) void HardFault_Handler (void)
+void HardFault_Handler(void)
 {
   /* USER CODE BEGIN HardFault_IRQn 0 */
 
@@ -97,7 +97,7 @@ __attribute__((weak)) void HardFault_Handler (void)
 /**
   * @brief This function handles Memory management fault.
   */
-__attribute__((weak)) void MemManage_Handler (void)
+void MemManage_Handler(void)
 {
   /* USER CODE BEGIN MemoryManagement_IRQn 0 */
 
@@ -112,7 +112,7 @@ __attribute__((weak)) void MemManage_Handler (void)
 /**
   * @brief This function handles Prefetch fault, memory access fault.
   */
-__attribute__((weak)) void BusFault_Handler (void)
+void BusFault_Handler(void)
 {
   /* USER CODE BEGIN BusFault_IRQn 0 */
 
@@ -127,7 +127,7 @@ __attribute__((weak)) void BusFault_Handler (void)
 /**
   * @brief This function handles Undefined instruction or illegal state.
   */
-__attribute__((weak)) void UsageFault_Handler (void)
+void UsageFault_Handler(void)
 {
   /* USER CODE BEGIN UsageFault_IRQn 0 */
 
@@ -142,7 +142,7 @@ __attribute__((weak)) void UsageFault_Handler (void)
 /**
   * @brief This function handles System service call via SWI instruction.
   */
-__attribute__((weak)) void SVC_Handler (void)
+void SVC_Handler(void)
 {
   /* USER CODE BEGIN SVCall_IRQn 0 */
 
@@ -155,7 +155,7 @@ __attribute__((weak)) void SVC_Handler (void)
 /**
   * @brief This function handles Debug monitor.
   */
-__attribute__((weak)) void DebugMon_Handler (void)
+void DebugMon_Handler(void)
 {
   /* USER CODE BEGIN DebugMonitor_IRQn 0 */
 
@@ -168,7 +168,7 @@ __attribute__((weak)) void DebugMon_Handler (void)
 /**
   * @brief This function handles Pendable request for system service.
   */
-__attribute__((weak)) void PendSV_Handler (void)
+void PendSV_Handler(void)
 {
   /* USER CODE BEGIN PendSV_IRQn 0 */
 
@@ -181,7 +181,7 @@ __attribute__((weak)) void PendSV_Handler (void)
 /**
   * @brief This function handles System tick timer.
   */
-__attribute__((weak)) void SysTick_Handler (void)
+void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
@@ -202,7 +202,7 @@ __attribute__((weak)) void SysTick_Handler (void)
 /**
   * @brief This function handles DMA1 channel1 global interrupt.
   */
-__attribute__((weak)) void DMA1_Channel1_IRQHandler (void)
+void DMA1_Channel1_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA1_Channel1_IRQn 0 */
 
@@ -215,7 +215,7 @@ __attribute__((weak)) void DMA1_Channel1_IRQHandler (void)
 /**
   * @brief This function handles TIM2 global interrupt.
   */
-__attribute__((weak)) void TIM2_IRQHandler (void)
+void TIM2_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM2_IRQn 0 */
 
@@ -229,7 +229,7 @@ __attribute__((weak)) void TIM2_IRQHandler (void)
 /**
   * @brief This function handles EXTI line[15:10] interrupts.
   */
-__attribute__((weak)) void EXTI15_10_IRQHandler (void)
+void EXTI15_10_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
 
