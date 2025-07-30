@@ -1,4 +1,4 @@
-config load "D:\Fibo\Year3\TA_RMX\Lab3_Encoder\Lab3_Encoder.ioc"
+config load "D:\Fibo\Year3\TA_RMX\FRA271_Lab1_Sensors\Encoder_reader\Encoder_reader.ioc"
 project toolchain STM32CubeIDE
 
 SetStructure Advanced

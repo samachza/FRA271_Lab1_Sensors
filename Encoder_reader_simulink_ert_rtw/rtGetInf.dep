@@ -1,0 +1,8 @@
+rtGetInf.o: \
+ D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rtGetInf.c \
+ D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rtwtypes.h \
+ D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rtGetInf.h \
+ D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rt_nonfinite.h
+D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rtwtypes.h:
+D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rtGetInf.h:
+D:/Fibo/Year3/TA_RMX/FRA271_Lab1_Sensors/Encoder_reader_simulink_ert_rtw/rt_nonfinite.h:

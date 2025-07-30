@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Lab3_Encoder</name>
+	<name>Encoder_reader</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -32,9 +32,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>Lab3_Encoder.ioc</name>
+			<name>Encoder_reader.ioc</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Lab3_Encoder.ioc</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Encoder_reader.ioc</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS/system_stm32g4xx.c</name>
